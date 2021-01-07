@@ -37,7 +37,7 @@ EOF
 
 ```
 
-## Step-03: Get the IAM role Worker Nodes using and Associate this Inline policy to that role
+## Step-03: Get the IAM role Worker Nodes  and add Inline policy to that role
 ```
 # Get Worker node IAM Role ARN
 kubectl -n kube-system describe configmap aws-auth
